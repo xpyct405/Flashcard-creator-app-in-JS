@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Flashcards</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1><i class="fas fa-credit-card"></i>Flashcards</h1>
+        <div class="btns">
+            <button class="add-btn">Add btn</button>
+            <button class="delete-btn">Delete btn</button>
+        </div>
+    </header>
+    <main class="main">
+        <div class="add-flashcard">
+            <h2>Create flashcard</h2>
+            <label for="question">Question</label>
+            <textarea id="question"></textarea>
+            <label for="answer">Answer</label>
+            <textarea id="answer"></textarea>
+            <div class="btns">
+                <button class="create-btn">Create</button>
+                <button class="close-btn">Close</button>
+            </div>
+
+        </div>
+        <div class="flashcards">
+            <!-- <div class="flashcard">
+                <h2 class="flashcard-title">How will be elephant in Russian?</h2>
+                <p class="hided-text"></p>
+                <p class="shown-text">Show answer</p>
+            </div> -->
+        </div>
+    </main>
+    <script src="https://kit.fontawesome.com/41a8dd7285.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
